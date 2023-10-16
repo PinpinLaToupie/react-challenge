@@ -1,0 +1,51 @@
+[
+    {
+      "id": 1,
+      "title": "Sarments noisettes ",
+      "description": "Agrémentez vos apéros entre amis avec nos sarments secs aux noisettes à la forme particulière de petits bâtons pour une dégustation unique ! ",
+      "price": 3.00,
+      "image": "public/image/sarments-noisette.jpg",
+      "category": "Saucisson"
+    },
+    {
+      "id": 2,
+      "title": "Figatellu",
+      "description": "Le Figatellu est fabriqué en Corse selon des méthodes traditionnelles transmises depuis des générations.",
+      "price": 5.25,
+      "image": "public/image/figatelli.jpg",
+      "category": "Saucisson"
+    },
+    {
+      "id": 3,
+      "title": "Saucisson sec fumé",
+      "description": "Le caractère du saucisson sec Fumé se révèle grâce à la fumaison qui apporte une note subtile au goût franc de ce saucisson",
+      "price": 5.00,
+      "image": "public/image/saucisson-sec-fume.jpg",
+      "category": "Saucisson"
+    },
+    {
+        "id": 4,
+        "title": "La Blonde des Aucels",
+        "description": "La bière Blonde des Aucels, robe légèrement cuivrée, structurée en bouche, équilibrée, douce et facile à boire.",
+        "price": 2.39,
+        "image": "public/image/biere-blonde-aucels .jpg",
+        "category": "Bière"
+      },
+      {
+        "id": 5,
+        "title": "Myrha",
+        "description": "Nez partagé entre des saveurs gourmandes de malt, du fruité, et des arômes plus tranchants herbacés.",
+        "price": 3.19,
+        "image": "public/image/Myrha-GoutteOr .jpg",
+        "category": "Bière"
+      },
+      {
+        "id": 6,
+        "title": "Montmorillon IPA",
+        "description": "Une fois n'est pas coutume, Montmorillo a voulu proposer une bière IPA dont les malts sont particulièrement travaillés et affirmés.",
+        "price": 3.49,
+        "image": "public/image/Montmorillon-IPA.jpg",
+        "category": "Bière"
+      }
+  ]
+  

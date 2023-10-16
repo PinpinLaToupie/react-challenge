@@ -1,0 +1,127 @@
+/* Body */
+
+body {
+  background-color: #fefae0;
+  background: linear-gradient(#fefae0, #bc6c25);
+}
+
+/* Nav bar */
+
+.App {
+  text-align: center;
+}
+
+.navbar {
+  background-color: #bc6c25;
+  color: #fefae0;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 10px;
+  position: fixed;
+  top: 0; 
+  width: 100%;
+  background: linear-gradient( #bc6c25, #fefae0);
+}
+
+.company-name h1 {
+  margin: 1;
+  font-family: 'Script Bold', cursive;
+}
+
+.navbar-buttons button {
+  background-color: #fefae0;
+  color: #bc6c25;
+  border: none;
+  margin-right: 50px;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.navbar-buttons button:hover {
+  background-color: #d1945e;
+  color: #fefae0;
+}
+@media (max-width: 767px) {
+  .navbar {
+    flex-direction: column;
+    padding: 20px;
+    text-align: center;
+  }
+
+  .navbar-buttons button {
+    margin-top: 10px;
+  }
+}
+
+/* card */
+
+.card {
+  border: thick double #d1945e;  padding: 10px;
+  width: 200px;
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  border-radius: 15px;
+  transition: transform 0.3s;
+  background-image: url('public/image/bois2.jpeg');
+  color: #000000;
+  font-family: 'Script Bold', cursive;
+
+
+}
+
+.card:hover {
+  transform: scale(1.05);
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+}
+
+.card-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.card img {
+  max-width: 100%;
+}
+
+.card h2 {
+  font-size: 1.5rem;
+  margin: 10px 0; 
+}
+
+.card p {
+  margin: 10px 0;
+}
+
+.margin-top-card {
+  margin-top: 200px;
+}
+
+@media (max-width: 767px) {
+  .card {
+    width: 100%;
+  }
+}
+
+
+/* footer */
+
+.footer {
+  background-color: #bc6c25;
+  color: #fefae0;
+  padding: 10px;
+  text-align: center;
+  width: 100%;
+  position: absolute;
+  background: linear-gradient(#bc6c25, #fefae0);
+}
+@media (max-width: 767px) {
+  .footer-bar {
+    font-size: 12px;
+  }
+}
