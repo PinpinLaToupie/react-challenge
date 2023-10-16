@@ -54,7 +54,7 @@ body {
   }
 }
 
-/* card */
+/* Card */
 
 .card {
   border: thick double #d1945e;  padding: 10px;
@@ -108,8 +108,40 @@ body {
   }
 }
 
+/* Bouton card */
 
-/* footer */
+.button {
+  background-color: #d1945e;
+  color: #ffffff;
+  margin-right: 5px; 
+}
+
+.button:hover {
+  background-color: #bc6c25;
+}
+
+.cart-button {
+  background-color: #fefae0;
+  color: #472d16;
+  margin-left: 5px;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.cart-button:hover {
+  background-color: #472d16;
+  color: #fefae0;
+}
+
+@media screen and (max-width: 768px) {
+  .button {
+    font-size: 14px;
+    margin: 0 3px;
+  }
+  .cart-button {
+    margin: 0 3px;
+  }
+}
+/* Footer */
 
 .footer {
   background-color: #bc6c25;
