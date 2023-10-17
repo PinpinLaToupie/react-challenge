@@ -49,27 +49,27 @@
       },
       {
         "id": 7,
-        "title": "Pack dévouverte S",
+        "title": "Box S 🐭",
         "description": "Box de 4 avec un saucisson",
         "price": 14.90,
         "image": "public/image/box-apero-decouverte.jpg",
-        "category": "Pack"
+        "category": "Box"
       },
       {
         "id": 8,
-        "title": "Pack dévouverte M",
+        "title": "Box M 🐗",
         "description": "Box de 6 avec 2 saucisson",
         "price": 19.90,
         "image": "public/image/pack6.jpeg",
-        "category": "Pack"
+        "category": "Box"
       },
       {
         "id": 9,
-        "title": "Pack dévouverte L",
+        "title": "Box L 🐻",
         "description": "Box de 8 avec 3 saucisson",
         "price": 24.90,
         "image": "public/image/coffret-cadeau-bieres-ardennaises.jpg",
-        "category": "Pack"
+        "category": "Box"
       }
   ]
   
