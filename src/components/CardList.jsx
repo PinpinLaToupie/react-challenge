@@ -1,5 +1,4 @@
 import PropTypes from 'prop-types';
-
 import Card from './Card';
 
 function CardList({ data }) {

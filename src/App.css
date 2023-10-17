@@ -1,8 +1,8 @@
 /* Body */
 
 body {
-  background-color: #fefae0;
-  background: linear-gradient(#fefae0, #bc6c25);
+  background-color: #F3DFA2;
+  background: linear-gradient(#292F36, #BC6C25);
 }
 
 /* Nav bar */
@@ -12,8 +12,8 @@ body {
 }
 
 .navbar {
-  background-color: #bc6c25;
-  color: #fefae0;
+  background-color: #292F36;
+  color: #F3DFA2;
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -21,16 +21,16 @@ body {
   position: fixed;
   top: 0; 
   width: 100%;
-  background: linear-gradient( #bc6c25, #fefae0);
+  background: linear-gradient( #bc6c25, #292F36);
 }
 
 .company-name h1 {
-  margin: 1;
+  margin: 0;
   font-family: 'Script Bold', cursive;
 }
 
 .navbar-buttons button {
-  background-color: #fefae0;
+  background-color: #F3DFA2;
   color: #bc6c25;
   border: none;
   margin-right: 50px;
@@ -39,8 +39,8 @@ body {
 }
 
 .navbar-buttons button:hover {
-  background-color: #d1945e;
-  color: #fefae0;
+  background-color: #BC6C25;
+  color: #F3DFA2;
 }
 @media (max-width: 767px) {
   .navbar {
@@ -57,7 +57,7 @@ body {
 /* Card */
 
 .card {
-  border: thick double #d1945e;  padding: 10px;
+  border: thick double #292F36;  padding: 10px;
   width: 200px;
   margin: 10px;
   display: flex;
@@ -67,7 +67,7 @@ body {
   border-radius: 15px;
   transition: transform 0.3s;
   background-image: url('public/image/bois2.jpeg');
-  color: #000000;
+  color: #292F36;
   font-family: 'Script Bold', cursive;
 
 
@@ -75,7 +75,7 @@ body {
 
 .card:hover {
   transform: scale(1.05);
-  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+  box-shadow: 0px 0px 50px #F3DFA2;
 }
 
 .card-list {
@@ -111,8 +111,8 @@ body {
 /* Bouton card */
 
 .button {
-  background-color: #d1945e;
-  color: #ffffff;
+  background-color: #292F36;
+  color: #F3DFA2;
   margin-right: 5px; 
 }
 
@@ -121,15 +121,15 @@ body {
 }
 
 .cart-button {
-  background-color: #fefae0;
-  color: #472d16;
+  background-color: #F3DFA2;
+  color: #292F36;
   margin-left: 5px;
   transition: background-color 0.3s, color 0.3s;
 }
 
 .cart-button:hover {
-  background-color: #472d16;
-  color: #fefae0;
+  background-color: #BC6C25;
+  color: #F3DFA2;
 }
 
 @media screen and (max-width: 768px) {
@@ -145,12 +145,12 @@ body {
 
 .footer {
   background-color: #bc6c25;
-  color: #fefae0;
+  color: #F3DFA2;
   padding: 10px;
   text-align: center;
   width: 100%;
   position: absolute;
-  background: linear-gradient(#bc6c25, #fefae0);
+  background: linear-gradient(#bc6c25, #292F36);
 }
 @media (max-width: 767px) {
   .footer-bar {

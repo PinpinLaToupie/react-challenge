@@ -11,13 +11,11 @@ function Card({ item, addToCart }) {
         <p>💰 {item.price} €</p>
         <p>🗃️ {item.category}</p>
         <div>
-        <p>Quantité : {quantity}</p>
-        <button className="button" onClick={() => setQuantity(quantity + 1)}>+</button>
-        <button className="button" onClick={() => setQuantity(quantity - 1)} disabled={quantity === 1}>-</button>
-
-        <button className="cart-button" onClick={() => addToCart(item, quantity)}>Ajouter au panier</button>
+          <p>Quantité : {quantity}</p>
+          <button className="button" onClick={() => setQuantity(quantity + 1)}>+</button>
+          <button className="button" onClick={() => setQuantity(quantity - 1)} disabled={quantity === 1}>-</button>
+          <button className="cart-button" onClick={() => addToCart(item, quantity)}>Ajouter au panier</button>
         </div>
-        
       </div>
     );
   }
