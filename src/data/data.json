@@ -26,7 +26,7 @@
     {
         "id": 4,
         "title": "La Blonde des Aucels",
-        "description": "La bière Blonde des Aucels, robe légèrement cuivrée, structurée en bouche, équilibrée, douce et facile à boire.",
+        "description": "La bière Blonde des Aucels, robe légèrement cuivrée, structurée en bouche, douce et facile à boire.",
         "price": 2.39,
         "image": "public/image/biere-blonde-aucels .jpg",
         "category": "Bière"
@@ -42,7 +42,7 @@
       {
         "id": 6,
         "title": "Montmorillon IPA",
-        "description": "Une fois n'est pas coutume, Montmorillo a voulu proposer une bière IPA dont les malts sont particulièrement travaillés et affirmés.",
+        "description": "Une fois n'est pas coutume, Montmorillo a voulu proposer une bière IPA dont les malts sont particulièrement affirmés .",
         "price": 3.49,
         "image": "public/image/Montmorillon-IPA.jpg",
         "category": "Bière"
