@@ -46,6 +46,30 @@
         "price": 3.49,
         "image": "public/image/Montmorillon-IPA.jpg",
         "category": "Bière"
+      },
+      {
+        "id": 7,
+        "title": "Pack dévouverte S",
+        "description": "Box de 4 avec un saucisson",
+        "price": 14.90,
+        "image": "public/image/box-apero-decouverte.jpg",
+        "category": "Pack"
+      },
+      {
+        "id": 8,
+        "title": "Pack dévouverte M",
+        "description": "Box de 6 avec 2 saucisson",
+        "price": 19.90,
+        "image": "public/image/pack6.jpeg",
+        "category": "Pack"
+      },
+      {
+        "id": 9,
+        "title": "Pack dévouverte L",
+        "description": "Box de 8 avec 3 saucisson",
+        "price": 24.90,
+        "image": "public/image/coffret-cadeau-bieres-ardennaises.jpg",
+        "category": "Pack"
       }
   ]
   
